@@ -10,15 +10,60 @@ body {
   position: relative;
 }
 
-.container {
-  background-color: #ccc;
+.main-container {
+  background-color: #fff;
   width: 50%;
+  height: 200px;
+  border: 2px solid #ccc;
   /* margin: 0 auto; */
   position: absolute;
   top: 200px;
   left: 25%;
 }
 
+img {
+  display: block; /*para ajustar la imagen a su contenedor ya que la imagen viene inline y el div contenedor viene block*/
+  width: 150px;
+}
+
 .img-container {
+  margin: 0px 20px 20px 0px;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
   float: left;
+}
+
+.main-title {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.advertising {
+  font-size: 0.9rem;
+}
+
+.price-container {
+  background-color: rgb(6, 21, 160);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.3rem;
+  width: 39%;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  position: absolute;
+  left: 39%;
+}
+
+.discount {
+  background-color: rgb(218, 50, 50);
+  color: #fff;
+  padding: 10px;
+  width: 30%;
+  font-size: 0.8rem;
+  font-weight: 800;
+  position: absolute;
+  top: -15px;
+  left: 85%;
 }
